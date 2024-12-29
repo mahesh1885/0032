@@ -2,7 +2,7 @@ provider "aws" {
   region = "ap-south-1"
 }
 variable "ami" {
-  default = "AKIAWN26JQFXVP2MLHP6"
+  default = "ami-0fd05997b4dff7aac"
 }
 variable "type" {
   default = "t2.micro"
